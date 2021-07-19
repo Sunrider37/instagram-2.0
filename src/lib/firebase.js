@@ -3,7 +3,6 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 
-import { seedDatabase } from '../seed';
 
 const config = {
     apiKey: "AIzaSyCOlvMk2JSED7wSjo6WVQZSftgyOtrwG8k",

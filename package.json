@@ -41,7 +41,7 @@
     "build:css": "postcss src/styles/tailwind.css -o src/styles/app.css",
     "watch:css": "postcss src/styles/tailwind.css -o src/styles/app.css --watch",
     "react-scripts:start": "react-scripts start",
-    "react-scripts:build": "react-scripts build",
+    "react-scripts:build": "set \"CI=false\" && react-scripts build",
     "start": "run-p watch:css react-scripts:start",
     "build": "react-scripts build",
     "test": "react-scripts test",
